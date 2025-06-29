@@ -1,0 +1,13 @@
+h2{
+    color: red;
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-size: 24px;
+}
+
+ol li{
+    font-size: 24px;
+}

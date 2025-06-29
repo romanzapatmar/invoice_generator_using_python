@@ -1,0 +1,66 @@
+<div class="page-container">Page of</div>
+<div class="logo-container"><img style="height: 18px;" src="https://app.useanvil.com/img/email-logo-black.png" /></div>
+<table class="invoice-info-container" style="height: 69px;">
+<tbody>
+<tr style="height: 15px;">
+<td class="client-name" style="height: 33px; width: 222.45px;" rowspan="2">{{ client_name }}</td>
+<td style="height: 15px; width: 175.8px;">Anvil Co</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 175.8px;">123 Main Street</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 222.45px;">Invoice Date: <strong>{{ today_date }}</strong></td>
+<td style="height: 18px; width: 175.8px;">San Francisco CA, 94103</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 222.45px;">Invoice No: <strong>12345</strong></td>
+<td style="height: 18px; width: 175.8px;">hello@useanvil.com</td>
+</tr>
+</tbody>
+</table>
+<table class="line-items-container" style="width: 306px;">
+<thead>
+<tr>
+<th class="heading-description" style="width: 160.9px;">Description</th>
+<th class="heading-subtotal" style="width: 131.5px;">Subtotal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 160.9px;">{{ item1 }}</td>
+<td class="bold" style="width: 131.5px;">{{ subtotal1 }}</td>
+</tr>
+<tr>
+<td style="width: 160.9px;">{{ item2 }}</td>
+<td class="bold" style="width: 131.5px;">{{ subtotal2 }}</td>
+</tr>
+<tr>
+<td style="width: 160.9px;">{{ item2 }}</td>
+<td class="bold" style="width: 131.5px;">{{ subtotal3 }}</td>
+</tr>
+</tbody>
+</table>
+<table class="line-items-container has-bottom-border">
+<thead>
+<tr>
+<th>Payment Info</th>
+<th>Due By</th>
+<th>Total Due</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="payment-info">
+<div>Account No: <strong>123567744</strong></div>
+<div>Routing No: <strong>120000547</strong></div>
+</td>
+<td class="large">{{ month }}&nbsp;</td>
+<td class="large total">{{ total }}</td>
+</tr>
+</tbody>
+</table>
+<div class="footer">
+<div class="footer-info">hello@useanvil.com | 555 444 6666 | useanvil.com</div>
+<div class="footer-thanks"><img src="https://github.com/anvilco/html-pdf-invoice-template/raw/main/img/heart.png" alt="heart" />Thank you!</div>
+</div>
